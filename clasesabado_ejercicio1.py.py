@@ -5,4 +5,6 @@ print(arregloA)
 print("Mostrar por pantalla sólo los valores que se encuentren en los índices pares del arreglo.")
 print(arregloA[::2])
 print("Mostrar el elemento mayor del arreglo", arregloA.max())
-print("Mostrar el índice (posición) del elemento mayor:", arregloA.max.index())
+#mostrar la posicion
+
+print("Mostrar el índice (posición) del elemento mayor:", arregloA.index(arregloA.max()))
